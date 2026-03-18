@@ -2,8 +2,8 @@
 class PrDump < Formula
   desc "Dump GitHub PR context (metadata, comments, diffs) for LLM review"
   homepage "https://github.com/CheerChen/pr-dump"
-  url "https://github.com/CheerChen/pr-dump/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "7c749a90679371017273394e980b92447445ddef7f4cd7ca07bd7e3f2e16cf35"
+  url "https://github.com/CheerChen/pr-dump/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "ce76b7ebaba5f74a56c5f2c52b3d355f06d3635983c13d4e87c852269347e8f2"
   license "MIT"
 
   depends_on "gh"
