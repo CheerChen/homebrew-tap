@@ -12,7 +12,7 @@ class ConfluenceDump < Formula
     (bin/"confluence-dump").write <<~EOS
       #!/bin/bash
       export PROJECT_DIR_OVERRIDE="#{libexec}"
-      exec "#{Formula[\"uv\"].opt_bin}/uv" run --frozen --project "#{libexec}" confluence-dump "$@"
+      exec "#{Formula["uv"].opt_bin}/uv" run --frozen --project "#{libexec}" confluence-dump "$@"
     EOS
   end
 
