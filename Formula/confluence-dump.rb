@@ -2,7 +2,7 @@ class ConfluenceDump < Formula
   desc "Export Confluence pages to Markdown for LLM context"
   homepage "https://github.com/CheerChen/confluence-dump"
   url "https://github.com/CheerChen/confluence-dump/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3c39e51ade098d9120b42b651203e4a67176cf09f182cdd099f1f27aa23dccaa"
+  sha256 "73b40d778e8d4c310444f8df2b0b62d554ef10262080146a80412f2c9e513be2"
   license "MIT"
 
   depends_on "uv"
