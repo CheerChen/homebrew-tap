@@ -5,6 +5,8 @@ class ConfluenceDump < Formula
   sha256 "f71670e705435c3f5257389eb4a80d9489c92d9fd4741e92f3e411332c7ad2fc"
   license "MIT"
 
+  deprecate! date: "2026-03-19", because: "merged into ctxd"
+
   depends_on "uv"
 
   def install

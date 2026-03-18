@@ -6,6 +6,8 @@ class PrDump < Formula
   sha256 "ce76b7ebaba5f74a56c5f2c52b3d355f06d3635983c13d4e87c852269347e8f2"
   license "MIT"
 
+  deprecate! date: "2026-03-19", because: "merged into ctxd"
+
   depends_on "gh"
   depends_on "jq"
 

@@ -5,6 +5,8 @@ class SlackThreadDump < Formula
   sha256 "f9595cf867a2bf385dada335949af37968cb96d470dd102bb436aea5b6885119"
   license "MIT"
 
+  deprecate! date: "2026-03-19", because: "merged into ctxd"
+
   depends_on "jq"
 
   def install
