@@ -1,8 +1,8 @@
 class Ctxd < Formula
   desc "Unified context dumper for LLM — GitHub PR, Slack, Confluence, Jira"
   homepage "https://github.com/CheerChen/ctxd"
-  url "https://github.com/CheerChen/ctxd/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "88cdb6c12424cd5f85ba97f8d4df99169e07f3d172980d9b5630e0f9011c4175"
+  url "https://github.com/CheerChen/ctxd/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "c39441b6a646ff606d31cb9483c66897bd1353d00caf9d79d398246bbfbd95e5"
   license "MIT"
 
   depends_on "uv"
