@@ -17,16 +17,17 @@ class Ctxd < Formula
 
   def caveats
     <<~EOS
-      Add to your shell config for the short alias `ctx`:
+      zsh globs `?` and `[` in unquoted arguments, so pasted URLs fail with
+      "no matches found". Add this to ~/.zshrc:
 
-        # zsh
         eval "$(ctxd init zsh)"
 
-        # bash
-        eval "$(ctxd init bash)"
+      bash and fish need no setup, but still treat a bare `&` as backgrounding
+      — quote URLs containing `&` or `?` in those shells.
 
-        # fish
-        ctxd init fish | source
+      Each source reads its own credential from the environment or
+      ~/.config/ctxd/config: GITHUB_TOKEN, SLACK_TOKEN, CONFLUENCE_BASE_URL /
+      CONFLUENCE_EMAIL / CONFLUENCE_API_TOKEN.
     EOS
   end
 
